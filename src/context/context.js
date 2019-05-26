@@ -62,7 +62,7 @@ class ProductProvider extends Component {
         singleProduct: this.getStorageProduct(),
         loading: false,
         price: maxPrice,
-        max: maxPrice
+        max: maxPrice + 1
       },
       () => {
         this.addTotals();
